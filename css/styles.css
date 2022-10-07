@@ -14,7 +14,18 @@
     font-family: Roboto;
 }
 
-/* Header */
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 21.5px;
+}
+
+.section{
+    padding: 47px 0;
+}
+
+    /* Header */
 /* Logo */
 .logo{
     font-family: Raleway;
@@ -74,6 +85,7 @@
 /* Hero */
 .hero{
     background-color: var(--color-background-secondary);
+    padding: 47px 0;
 }
 .hero-title{
     color: var(--color-background-primary);
@@ -131,6 +143,7 @@
 }
 .section-team{
     background-color: var(--color-background-accent);
+    padding: 47px 0;
 }
 .team{
     background-color: var(--color-background-primary);
