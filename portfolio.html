@@ -13,13 +13,13 @@
 </head>
 <body class="page">
     <!-- Header -->
-    <header>
-        <div class="container">
-            <nav>
+    <header class="header">
+        <div class="container header-box">
+            <nav class="nav-header">
                 <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
                 <ul class="site-nav">
-                    <li><a href="/" class="site-nav-link current">Студія</a></li>
-                    <li><a href="portfolio.html" class="site-nav-link">Портфоліо</a></li>
+                    <li><a href="/" class="site-nav-link">Студія</a></li>
+                    <li><a href="portfolio.html" class="site-nav-link current">Портфоліо</a></li>
                     <li><a href="#footer" class="site-nav-link">Контакти</a></li>
                 </ul>
             </nav>
@@ -27,64 +27,83 @@
                 <li><a href="mailto:info@devstudio.com" class="auth-nav-link">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111" class="auth-nav-link">+38 096 111 11 11</a></li>
             </ul>
+        </div>
     </header>
     <!-- Main -->
     <main>
         <section class="section">
             <div class="container">
                 <ul class="filter">
-                    <li><button type="button" class="button-filter">Усі</button></li>
-                    <li><button type="button" class="button-filter">Веб-сайти</button></li>
-                    <li><button type="button" class="button-filter">Додатки</button></li>
-                    <li><button type="button" class="button-filter">Дизайн</button></li>
-                    <li><button type="button" class="button-filter">Маркетинг</button></li>
+                    <li class="filter-item"><button type="button" class="button-filter">Усі</button></li>
+                    <li class="filter-item"><button type="button" class="button-filter">Веб-сайти</button></li>
+                    <li class="filter-item"><button type="button" class="button-filter">Додатки</button></li>
+                    <li class="filter-item"><button type="button" class="button-filter">Дизайн</button></li>
+                    <li class="filter-item"><button type="button" class="button-filter">Маркетинг</button></li>
                 </ul>
                 <!-- Work list -->
                 <ul class="project-list">
-                    <li>
+                    <li class="project-list-item">
                         <img src="./images/techno.jpg" alt="Вебсайт Технокряк" width="370" class="project-photo">
-                        <h2 class="project-title">Технокряк</h2>
-                        <p class="project-description">Веб-сайт</p>
+                        <div class="project-text">
+                            <h2 class="project-title">Технокряк</h2>
+                            <p class="project-description">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="project-list-item">
                         <img src="./images/basket.jpg" alt="New Orlean vs Golden Star" width="370" class="project-photo">
-                        <h2 class="description-title">Постер New Orlean vs Golden Star</h2>
-                        <p class="description">Дизайн</p>
+                        <div class="project-text">
+                            <h2 class="project-title">Технокряк</h2>
+                            <p class="project-description">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="project-list-item">
                         <img src="./images/seafood.jpg" alt="Ресторан Seafood" width="370" class="project-photo">
-                        <h2 class="description-title">Ресторан Seafood</h2>
-                        <p class="description">Додаток</p>
+                        <div class="project-text">
+                            <h2 class="project-title">Технокряк</h2>
+                            <p class="project-description">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="project-list-item">
                         <img src="./images/prime.jpg" alt="Навушники Prime" width="370" class="project-photo">
-                        <h2 class="description-title">Проект Prime</h2>
-                        <p class="description">Маркетинг</p>
+                        <div class="project-text">
+                            <h2 class="project-title">Технокряк</h2>
+                            <p class="project-description">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="project-list-item">
                         <img src="./images/boxed.jpg" alt="Коробки Boxes" width="370" class="project-photo">
-                        <h2 class="description-title">Проект Boxes</h2>
-                        <p class="description">Додаток</p>
+                        <div class="project-text">
+                            <h2 class="project-title">Технокряк</h2>
+                            <p class="project-description">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/inspiration.jpg" alt="Головна сторінка веб-сайту" width="370">
-                        <h2 class="description-title">Ispiration has no borders</h2>
-                        <p class="description">Веб-сайт</p>
+                    <li class="project-list-item">
+                        <img src="./images/inspiration.jpg" alt="Головна сторінка веб-сайту" width="370" class="project-photo">
+                        <div class="project-text">
+                            <h2 class="project-title">Технокряк</h2>
+                            <p class="project-description">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/limited.jpg" alt="Сторінки видання" width="370">
-                        <h2 class="description-title">Видання Limited Edition</h2>
-                        <p class="description">Дизайн</p>
+                    <li class="project-list-item">
+                        <img src="./images/limited.jpg" alt="Сторінки видання" width="370" class="project-photo">
+                        <div class="project-text">
+                            <h2 class="project-title">Технокряк</h2>
+                            <p class="project-description">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/lab.jpg" alt="Логотип проекту" width="370">
-                        <h2 class="description-title">Проект LAB</h2>
-                        <p class="description">Маркетинг</p>
+                    <li class="project-list-item">
+                        <img src="./images/lab.jpg" alt="Логотип проекту" width="370" class="project-photo">
+                        <div class="project-text">
+                            <h2 class="project-title">Технокряк</h2>
+                            <p class="project-description">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/growing.jpg" alt="Титульна сторінка веб-сайту" width="370">
-                        <h2 class="description-title">Growing Business</h2>
-                        <p class="description">Додаток</p>
+                    <li class="project-list-item">
+                        <img src="./images/growing.jpg" alt="Титульна сторінка веб-сайту" width="370" class="project-photo">
+                        <div class="project-text">
+                            <h2 class="project-title">Технокряк</h2>
+                            <p class="project-description">Веб-сайт</p>
+                        </div>
                     </li>
                 </ul>
             </div>
